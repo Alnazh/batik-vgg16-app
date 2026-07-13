@@ -1,0 +1,14 @@
+# ============================================================
+# requirements.txt
+# Daftar library Python yang dibutuhkan oleh aplikasi ini.
+# Install dengan perintah: pip install -r requirements.txt
+# ============================================================
+
+Flask==3.0.3                 # Framework web backend
+tensorflow==2.16.1           # Deep learning framework (Keras VGG16 ada di dalamnya)
+numpy==1.26.4                # Operasi array/matrix untuk pra-pemrosesan gambar
+Pillow==10.3.0                # Membuka & memanipulasi file gambar
+matplotlib==3.8.4             # Membuat grafik akurasi & loss saat training
+scikit-learn==1.4.2           # Classification report & confusion matrix saat evaluasi
+gunicorn==22.0.0              # Web server production untuk deployment (Render/Railway/dll)
+Werkzeug==3.0.3                # Utility Flask (secure_filename, dsb)

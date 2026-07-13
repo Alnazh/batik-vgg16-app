@@ -1,0 +1,29 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# File gambar hasil upload pengguna saat runtime (tidak perlu ikut di-commit)
+static/uploads/*
+!static/uploads/.gitkeep
+
+# Dataset mentah hasil unduhan Kaggle (folder sumber sebelum di-split)
+Dataset Batik Keraton/
+dataset-batik-keraton.zip
+*.zip
+
+# Dataset hasil split (ribuan gambar, tidak dibutuhkan saat deployment,
+dataset/train/*
+dataset/val/*
+dataset/test/*
+!dataset/train/.gitkeep
+!dataset/val/.gitkeep
+!dataset/test/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+Thumbs.db
