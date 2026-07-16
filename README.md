@@ -60,6 +60,12 @@ Selain fitur klasifikasi, aplikasi ini transparan soal performa modelnya sendiri
 <tr>
 <td width="50%">
 
+**Dataset**
+<img src="docs/screenshots/dataset.png" alt="Halaman Dataset">
+
+</td>
+<td width="50%"> 
+
 
 **Evaluasi Model**
 <img src="docs/screenshots/evaluasi.png" alt="Evaluasi Model">
@@ -72,12 +78,6 @@ Selain fitur klasifikasi, aplikasi ini transparan soal performa modelnya sendiri
 **Hasil Klasifikasi**
 <img src="docs/screenshots/hasil.png" alt="Hasil Klasifikasi">
 
-</td>
-<td width="50%"> 
-
-
-**Dataset**
-<img src="docs/screenshots/dataset.png" alt="Halaman Dataset">
 
 </td>
 <td width="50%">
