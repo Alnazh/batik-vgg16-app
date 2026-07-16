@@ -214,7 +214,11 @@ def main():
     )
     history_2 = model.fit(train_gen, validation_data=val_gen, epochs=config.EPOCHS_FINE_TUNING, callbacks=callbacks)
 
-    model.save(config.MODEL_PATH)
+    # include_optimizer=False: state optimizer Adam (momentum/velocity) tidak perlu disimpan
+    # karena hanya dipakai untuk melanjutkan training, bukan untuk inference/deploy.
+    # Ini memangkas ukuran file model kurang lebih setengahnya (184 MB -> ~75-80 MB)
+    # tanpa mengubah bobot model maupun akurasi sama sekali.
+    model.save(config.MODEL_PATH, include_optimizer=False)
     print(f"[INFO] Model final disimpan di: {config.MODEL_PATH}")
 
     simpan_mapping_kelas(train_gen.class_indices)
