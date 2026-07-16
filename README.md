@@ -32,13 +32,13 @@ Selain fitur klasifikasi, aplikasi ini transparan soal performa modelnya sendiri
 
 ## Fitur Utama
 
-- **Klasifikasi real-time** — unggah foto lewat drag & drop, dapat hasil dalam hitungan detik
-- **Top-3 prediksi** — ditampilkan dengan grafik donat dan progress bar, bukan cuma satu tebakan
-- **Info edukatif tiap motif** — asal daerah, makna filosofis, dan ciri visual utama
-- **Dashboard informatif** — statistik dataset, cara kerja sistem dijelaskan dengan bahasa sederhana, galeri motif, dan FAQ
-- **Evaluasi model transparan** — grafik akurasi/loss, confusion matrix, performa per kelas, dan konfigurasi training, semuanya bisa dilihat publik
-- **Halaman dataset** — sumber data dan distribusi jumlah gambar per kelas
-- **Mode demo otomatis** — kalau model belum dilatih, aplikasi tetap jalan pakai bobot ImageNet bawaan supaya alurnya tetap bisa dicoba
+- **Klasifikasi real-time** - unggah foto lewat drag & drop, dapat hasil dalam hitungan detik
+- **Top-3 prediksi** - ditampilkan dengan grafik donat dan progress bar, bukan cuma satu tebakan
+- **Info edukatif tiap motif** - asal daerah, makna filosofis, dan ciri visual utama
+- **Dashboard informatif** - statistik dataset, cara kerja sistem dijelaskan dengan bahasa sederhana, galeri motif, dan FAQ
+- **Evaluasi model transparan** - grafik akurasi/loss, confusion matrix, performa per kelas, dan konfigurasi training, semuanya bisa dilihat publik
+- **Halaman dataset** - sumber data dan distribusi jumlah gambar per kelas
+- **Mode demo otomatis** - kalau model belum dilatih, aplikasi tetap jalan pakai bobot ImageNet bawaan supaya alurnya tetap bisa dicoba
 
 ## Tangkapan Layar
 
