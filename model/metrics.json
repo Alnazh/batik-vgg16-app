@@ -1,0 +1,14 @@
+{
+  "jumlah_kelas": 4,
+  "nama_kelas": [
+    "Kawung",
+    "Mega_Mendung",
+    "Parang",
+    "Truntum"
+  ],
+  "jumlah_data_train": 1258,
+  "jumlah_data_val": 267,
+  "jumlah_data_test": 274,
+  "akurasi_test": 88.32,
+  "loss_test": 0.4342
+}
